@@ -4,7 +4,7 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://astro.build/config
 export default defineConfig({
-  base: '/recursive-bot/devportfolio-master/',
+  base: '/devportfolio-master/',
   vite: {
     plugins: [tailwindcss()],
   },
